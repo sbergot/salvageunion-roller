@@ -36,14 +36,14 @@ function Roller() {
           {rows.map((row) => (
             <button
               key={row.name}
-              className="bg-teal-100 hover:bg-teal-200 p-1 m-1 rounded-lg"
+              className="bg-blue-100 hover:bg-blue-200 p-1 m-1 rounded-lg"
               onClick={() => setRest(roll(row.rollTable))}
             >
               {row.name}
             </button>
           ))}
         </div>
-        <div className="w-full max-w-md border-4 border-teal-100 rounded-xl p-4 text-xl">
+        <div className="w-full max-w-md border-4 border-blue-100 rounded-xl p-4 text-xl">
           {res
             ? <Result result={res} />
             : "Click on a button to start rolling"}
