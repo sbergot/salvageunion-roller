@@ -7,13 +7,22 @@ export default {
   theme: {
     colors: {
       blue: {
-        100: "#cbe9f0",
-        200: "#89cee7"
+        100: "#c0ced5",
+        200: "#316b80"
+      },
+      teal: {
+        100: "#ccdbdf",
+        200: "#468ba4"
+      },
+      orange: {
+        100: "#f5c0a0",
+        200: "#ef894f"
       },
       red: {
-        100: "#d18d79",
-        200: "#d38f7b",
+        100: "#e9c3b0",
+        200: "#9e4432"
       },
+      purple: "#ce5897",
       white: "#ffffff",
       black: "#000000",
     },
