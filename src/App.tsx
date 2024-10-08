@@ -46,7 +46,7 @@ function Roller() {
         <div className="w-full max-w-md border-4 border-blue-100 rounded-xl p-4 text-xl">
           {res
             ? <Result result={res} />
-            : "Click on a button to start rolling"}
+            : "Click on a button to start rolling!"}
         </div>
       </div>
     </div>
