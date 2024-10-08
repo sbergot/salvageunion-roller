@@ -35,14 +35,15 @@ function Roller() {
         <div className="flex flex-col">
           {rows.map((row) => (
             <button
-              className="bg-blue-100 hover:bg-blue-200 p-1 m-1 rounded-lg"
+              key={row.name}
+              className="bg-teal-100 hover:bg-teal-200 p-1 m-1 rounded-lg"
               onClick={() => setRest(roll(row.rollTable))}
             >
               {row.name}
             </button>
           ))}
         </div>
-        <div className="w-full max-w-md border-4 border-blue-100 rounded-xl p-4 text-xl">
+        <div className="w-full max-w-md border-4 border-teal-100 rounded-xl p-4 text-xl">
           {res
             ? <Result result={res} />
             : "Click on a button to start rolling"}
